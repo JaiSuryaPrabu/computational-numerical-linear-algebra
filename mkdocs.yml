@@ -1,0 +1,76 @@
+site_name: Computational Numerical Linear Algebra
+site_url: https://www.cmpnla.com
+site_description: Computational Numerical Linear Algebra implementation in Python
+
+repo_url: https://github.com/JaiSuryaPrabu/computational-numerical-linear-algebra
+repo_name: JaiSuryaPrabu/computational-numerical-linear-algebra
+
+theme: 
+  name : material
+  language: en
+  # for user defined logo
+  # logo: path/of/the/image.png
+
+  # color palette
+  palette: 
+    # light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      # primary color
+      primary: blue
+      # interactable text color
+      accent: indigo
+
+  features:
+  # navigations
+    - navigation.expand
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+  # table of content
+    - toc.integrate 
+  # code
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+  # search
+    - search.highlight
+    - search.suggest
+  # header
+    - header.autohide
+
+extra:
+  social:
+    - icon : fontawesome/brands/github-alt
+      link : https://github.com/JaiSuryaPrabu
+    - icon : fontawesome/brands/twitter
+      link : https://twitter.com/__Jaisurya
+    - icon : fontawesome/brands/linkedin
+      link : https://www.linkedin.com/in/jaisurya-prabakaran-3619aa226/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg 
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/JaiSuryaPrabu" target="_blank" rel="noopener">Jaisurya</a>
